@@ -78,7 +78,7 @@ RegisterNetEvent('randol_cache:client:initHunt', function(coords)
             if point.isClosest and point.currentDistance <= 1.5 then
                 if not showText then
                     showText = true
-                    lib.showTextUI(Config.TextUIMessage, {position = "left-center"})
+                    lib.showTextUI(Config.TextUIMessage, {position = "right-center"})
                 end
 
                 if IsControlJustReleased(0, 38) then

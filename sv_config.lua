@@ -1,8 +1,8 @@
 return {
     GiveRewards = function(player, src)
-        local amount = math.random(13000, 17500)
+        local amount = math.random(130, 175)
         AddMoney(player, 'cash', amount)
-        DoNotification(src, ('You got $%s from G\'s Cache.'):format(amount))
+        DoNotification(src, ('Você encontrou R$%s na caixa misteriosa.'):format(amount))
     end,
     Debug = false,
     CycleTimer = 90, -- every 90 mins a new g's cache gets generated.
