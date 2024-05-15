@@ -32,7 +32,7 @@ local function createRadius(coords)
     SetBlipColour(blip2, 7)
     SetBlipAsShortRange(blip2, true)
     BeginTextCommandSetBlipName('STRING')
-    AddTextComponentSubstringPlayerName("G's Cache")
+    AddTextComponentSubstringPlayerName("Caixa Misteriosa")
     EndTextCommandSetBlipName(blip2)
     return blip, blip2
 end
